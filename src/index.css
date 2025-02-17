@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+	font-family: "Lato",Arial, Helvetica, sans-serif;
+}
+
+
+.convert-box{
+  display: flex;
+  gap: 20px;
+  margin: 20px;
+  margin-left: 100px;
+}
+
+body {
+  background-color: #f4f4f4; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.content{
+  background-color: #F8D800;
+  padding: 0px 100px 140px;
+  text-align: center;
+  height: 40vh;
+  border-radius: 5px;
+  box-shadow: hsla(0, 0, 0, 0.2);
+}
+
+label{
+  /* margin: 100px; */
+  display: block;
+  margin: 10px;
+}
+
+input, select{
+  border-radius: 5px;
+}
+
+#input:focus{
+  border-color: #555;
+}
+
+#convert{
+  background-color: #007bff;
+  width: 60vw;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: snow;
+}
+
+#conversion{
+  font-weight: bold;
+}
+
+#error{
+  font-weight: bold;
+  color: red;
+}
+
+.hidden{
+  display: none;
+}
+
+.options{
+  width: 20px;
+}
